@@ -23,7 +23,12 @@ img{
     width:200px;
 
 }
+ button:hover{
+    background-color: rgb(237, 69, 69);
+    color: skyblue;
+ }
 
+ 
 
 
 
@@ -80,16 +85,32 @@ img{
 }
 
 .adjust{
-    float: right;
     width: 30%;
     height: 30%;
+}
+
+.container-pos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.position{ 
+    background-color: beige;
+    background-image: url(images/Bodyshop_3.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;    
+    width: 500px;
+    height: 600px;
 
 }
 
-.position{
-    position:absolute;
-    width:50%;
-    left : 20%;
-    background-color: beige;
-    padding: 30px;    
+.txt-pos{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40%;
 }
