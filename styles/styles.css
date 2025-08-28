@@ -97,7 +97,7 @@ img{
 
 .position{ 
     background-color: beige;
-    background-image: url(images/Bodyshop_3.JPG);
+    background-image: url(/images/bodyshop_3.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
